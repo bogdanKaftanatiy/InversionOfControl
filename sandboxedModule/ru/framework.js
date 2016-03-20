@@ -5,7 +5,10 @@
 
 // Фреймворк может явно зависеть от библиотек через dependency lookup
 var fs = require('fs'),
-    vm = require('vm');
+    vm = require('vm'),
+    app = require('./application.js');
+
+app();
 
 // Создаем контекст-песочницу, которая станет глобальным контекстом приложения
 var context = { module: {}, console: console };
@@ -16,6 +19,7 @@ var sandbox = vm.createContext(context);
 var fileName = './application.js';
 fs.readFile(fileName, function(err, src) {
   // Тут нужно обработать ошибки
+  if (err) return console.log(err);
   
   // Запускаем код приложения в песочнице
   var script = vm.createScript(src, fileName);
