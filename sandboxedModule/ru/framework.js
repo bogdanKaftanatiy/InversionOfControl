@@ -43,4 +43,6 @@ function duplicateObject(obj) {
 context.console.log = function (message){
 	var time = new Date().toLocaleTimeString();
 	console.log(fileName+" "+time+" "+message);
+	var out = fs.createWriteStream('output.txt', {flags: 'a+'});
+	out.write(fileName+" "+time+" "+message+'\n');
 }

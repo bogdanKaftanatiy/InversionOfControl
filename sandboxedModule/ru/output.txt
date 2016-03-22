@@ -1,0 +1,7 @@
+./application.js 20:30:41 From application global context
+./application.js 20:30:41 { a: 5, b: 6, self: [Circular] }
+./application.js 20:30:42 Print use setInterval.
+./application.js 20:30:43 Print use setInterval.
+./application.js 20:30:44 Print use setInterval.
+./application.js 20:30:44 Print use setTimeout.
+./application.js 20:30:45 Print use setInterval.
