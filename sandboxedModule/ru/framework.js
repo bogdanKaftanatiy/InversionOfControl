@@ -14,7 +14,7 @@ var context = {
 	myInterval: setInterval,
 	module: {}, 
 	util: util,
-	console: console 
+	console: console
 };
 context.global = context;
 var sandbox = vm.createContext(context);
