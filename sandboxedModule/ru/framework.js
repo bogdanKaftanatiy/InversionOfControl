@@ -20,7 +20,7 @@ context.global = context;
 var sandbox = vm.createContext(context);
 
 // Читаем исходный код приложения из файла
-var fileName = './application.js';
+var fileName = process.argv[2] || './application.js';
 fs.readFile(fileName, function(err, src) {
   // Тут нужно обработать ошибки
   if (err) return console.log(err);
