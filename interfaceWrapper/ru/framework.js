@@ -8,7 +8,7 @@ var context = {
   module: {},
   console: console,
   // Помещаем ссылку на fs API в песочницу
-  fs: fs,
+  fs: cloneInterface(fs),
   // Оборачиваем функцию setTimeout в песочнице
   setTimeout: function(callback, timeout) {
     // Добавляем поведение при вызове setTimeout
@@ -38,3 +38,24 @@ fs.readFile(fileName, function(err, src) {
   var script = vm.createScript(src, fileName);
   script.runInNewContext(sandbox);
 });
+
+function cloneInterface(anInterface) {
+	var clone = {};
+    for (var key in anInterface) {
+    	/*if(anInterface[key].arguments[arguments.lenght - 1] == 'callback')
+    		clone[key] = wrapFunction(key, anInterface[key]);
+    	else*/
+    		clone[key] = anInterface[key];
+    }
+    return clone;
+}
+
+function wrapFunction(fnName, fn) {
+    return function wrapper() {
+      var args = [];
+      Array.prototype.push.apply(args, arguments);
+      console.log('Call: ' + fnName);
+      console.dir(args);
+      return fn.apply(undefined, args);
+    }
+  }
