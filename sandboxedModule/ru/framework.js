@@ -14,7 +14,8 @@ var context = {
 	myInterval: setInterval,
 	module: {}, 
 	util: util,
-	console: duplicateObject(console)
+	console: duplicateConsole(console),
+	require: newRequire
 };
 context.global = context;
 var sandbox = vm.createContext(context);
@@ -33,11 +34,17 @@ fs.readFile(fileName, function(err, src) {
   // сохранить в кеш, вывести на экран исходный код приложения и т.д.
 });
 
-function duplicateObject(obj) {
+function duplicateConsole(obj) {
 	var result = {};
 	for (var i in obj)
 		result[i] = obj[i];
 	return result;
+}
+
+function newRequire(module){
+	var time = new Date().toLocaleTimeString();
+	console.log(time + ' ' + module);
+	return require(module);
 }
 
 context.console.log = function (message){

@@ -5,3 +5,24 @@
 ./application.js 20:30:44 Print use setInterval.
 ./application.js 20:30:44 Print use setTimeout.
 ./application.js 20:30:45 Print use setInterval.
+./application.js 18:04:09 From application global context
+./application.js 18:04:09 { a: 5, b: 6, self: [Circular] }
+./application.js 18:04:10 Print use setInterval.
+./application.js 18:04:11 Print use setInterval.
+./application.js 18:04:12 Print use setInterval.
+./application.js 18:04:13 Print use setTimeout.
+./application.js 18:04:13 Print use setInterval.
+./application.js 18:32:29 From application global context
+./application.js 18:32:29 { a: 5, b: 6, self: [Circular] }
+./application.js 18:32:30 Print use setInterval.
+./application.js 18:32:31 Print use setInterval.
+./application.js 18:32:32 Print use setInterval.
+./application.js 18:32:32 Print use setTimeout.
+./application.js 18:32:33 Print use setInterval.
+./application.js 18:32:34 Print use setInterval.
+./application.js 18:33:06 From application global context
+./application.js 18:33:06 { a: 5, b: 6, self: [Circular] }
+./application.js 18:33:07 Print use setInterval.
+./application.js 18:33:08 Print use setInterval.
+./application.js 18:33:09 Print use setInterval.
+./application.js 18:33:10 Print use setTimeout.
