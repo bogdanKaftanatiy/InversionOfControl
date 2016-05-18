@@ -20,6 +20,10 @@ var context = {
 context.global = context;
 var sandbox = vm.createContext(context);
 
+var keys = {};
+for (var tmp in sandbox)
+	keys[tmp] = sandbox[tmp];
+
 // Читаем исходный код приложения из файла
 var fileName = process.argv[2] || './application.js';
 fs.readFile(fileName, function(err, src) {
@@ -29,6 +33,16 @@ fs.readFile(fileName, function(err, src) {
   // Запускаем код приложения в песочнице
   var script = vm.createScript(src, fileName);
   script.runInNewContext(sandbox);
+
+  var newKeys = {};
+  for (var tmp in sandbox)
+	newKeys[tmp] = sandbox[tmp];
+
+  console.log("New keys:");
+  for (var tmp in newKeys) {
+	if (!(tmp in keys))
+		console.log(tmp);
+  }
   
   for (var tmp in sandbox.module.exports) {
   	console.log(tmp + " -> " + typeof sandbox.module.exports[tmp]);
@@ -47,6 +61,8 @@ fs.readFile(fileName, function(err, src) {
   }
   console.log(functionString);
   console.log(countArg + 1);
+
+  sandbox.module.exports();
   // Забираем ссылку из sandbox.module.exports, можем ее исполнить,
   // сохранить в кеш, вывести на экран исходный код приложения и т.д.
 });

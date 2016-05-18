@@ -19,12 +19,13 @@ var obj = {
   	b: 6
   }
   obj.self = obj;
-  console.log(util.inspect(obj));
+  console.log(util.inspect(obj, {colors: true}));
 
 module.exports = function() {
   // Вывод из контекста экспортируемой функции
-
     console.log('From application exported function');
+
+    console.log(util.inspect(global, {colors: true}));
 };
 
 module.exports.func = function(argument) {

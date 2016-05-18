@@ -68,3 +68,187 @@
 ./application.js 19:14:08 Print use setInterval.
 ./application.js 19:14:08 Print use setTimeout.
 ./application.js 19:14:09 Print use setInterval.
+./application.js 19:16:33 From application global context
+./application.js 19:16:33 { a: 5, b: 6, self: [Circular] }
+./application.js 19:16:34 Print use setInterval.
+./application.js 19:16:35 Print use setInterval.
+./application.js 19:16:36 Print use setInterval.
+./application.js 19:16:36 Print use setTimeout.
+./application.js 19:16:37 Print use setInterval.
+./application.js 19:16:38 Print use setInterval.
+./application.js 19:16:54 From application global context
+./application.js 19:16:54 { a: 5, b: 6, self: [Circular] }
+./application.js 19:16:55 Print use setInterval.
+./application.js 19:16:56 Print use setInterval.
+./application.js 19:16:57 Print use setInterval.
+./application.js 19:16:57 Print use setTimeout.
+./application.js 19:16:58 Print use setInterval.
+./application.js 19:16:59 Print use setInterval.
+./application.js 19:17:00 Print use setInterval.
+./application.js 19:17:01 Print use setInterval.
+./application.js 19:17:02 Print use setInterval.
+./application.js 19:17:03 Print use setInterval.
+./application.js 19:18:17 From application global context
+./application.js 19:18:17 { a: 5, b: 6, self: [Circular] }
+./application.js 19:18:17 From application exported function
+./application.js 19:18:17 { obj: { a: [33m5[39m, b: [33m6[39m, self: [36m[Circular][39m },
+  util: 
+   { format: [36m[Function][39m,
+     deprecate: [36m[Function][39m,
+     debuglog: [36m[Function][39m,
+     inspect: { [Function: inspect] colors: [36m[Object][39m, styles: [36m[Object][39m },
+     isArray: [36m[Function: isArray][39m,
+     isBoolean: [36m[Function: isBoolean][39m,
+     isNull: [36m[Function: isNull][39m,
+     isNullOrUndefined: [36m[Function: isNullOrUndefined][39m,
+     isNumber: [36m[Function: isNumber][39m,
+     isString: [36m[Function: isString][39m,
+     isSymbol: [36m[Function: isSymbol][39m,
+     isUndefined: [36m[Function: isUndefined][39m,
+     isRegExp: [36m[Function: isRegExp][39m,
+     isObject: [36m[Function: isObject][39m,
+     isDate: [36m[Function: isDate][39m,
+     isError: [36m[Function: isError][39m,
+     isFunction: [36m[Function: isFunction][39m,
+     isPrimitive: [36m[Function: isPrimitive][39m,
+     isBuffer: [36m[Function: isBuffer][39m,
+     log: [36m[Function][39m,
+     inherits: [36m[Function][39m,
+     _extend: [36m[Function][39m,
+     exec: [36m[Function: deprecated][39m,
+     print: [36m[Function: deprecated][39m,
+     puts: [36m[Function: deprecated][39m,
+     debug: [36m[Function: deprecated][39m,
+     error: [36m[Function: deprecated][39m,
+     pump: [36m[Function: deprecated][39m,
+     _errnoException: [36m[Function][39m,
+     _exceptionWithHostPort: [36m[Function][39m },
+  myTimeout: [36m[Function][39m,
+  myInterval: [36m[Function][39m,
+  module: { exports: { [Function] func: [36m[Function][39m } },
+  console: 
+   { log: [36m[Function][39m,
+     info: [36m[Function: bound ][39m,
+     warn: [36m[Function: bound ][39m,
+     error: [36m[Function: bound ][39m,
+     dir: [36m[Function: bound ][39m,
+     time: [36m[Function: bound ][39m,
+     timeEnd: [36m[Function: bound ][39m,
+     trace: [36m[Function: bound trace][39m,
+     assert: [36m[Function: bound ][39m,
+     Console: [36m[Function: Console][39m },
+  require: [36m[Function: newRequire][39m,
+  global: [36m[Circular][39m }
+./application.js 19:18:18 Print use setInterval.
+./application.js 19:18:19 Print use setInterval.
+./application.js 19:18:20 Print use setInterval.
+./application.js 19:19:24 From application global context
+./application.js 19:19:24 { a: [33m5[39m, b: [33m6[39m, self: [36m[Circular][39m }
+./application.js 19:19:24 From application exported function
+./application.js 19:19:24 { obj: { a: [33m5[39m, b: [33m6[39m, self: [36m[Circular][39m },
+  util: 
+   { format: [36m[Function][39m,
+     deprecate: [36m[Function][39m,
+     debuglog: [36m[Function][39m,
+     inspect: { [Function: inspect] colors: [36m[Object][39m, styles: [36m[Object][39m },
+     isArray: [36m[Function: isArray][39m,
+     isBoolean: [36m[Function: isBoolean][39m,
+     isNull: [36m[Function: isNull][39m,
+     isNullOrUndefined: [36m[Function: isNullOrUndefined][39m,
+     isNumber: [36m[Function: isNumber][39m,
+     isString: [36m[Function: isString][39m,
+     isSymbol: [36m[Function: isSymbol][39m,
+     isUndefined: [36m[Function: isUndefined][39m,
+     isRegExp: [36m[Function: isRegExp][39m,
+     isObject: [36m[Function: isObject][39m,
+     isDate: [36m[Function: isDate][39m,
+     isError: [36m[Function: isError][39m,
+     isFunction: [36m[Function: isFunction][39m,
+     isPrimitive: [36m[Function: isPrimitive][39m,
+     isBuffer: [36m[Function: isBuffer][39m,
+     log: [36m[Function][39m,
+     inherits: [36m[Function][39m,
+     _extend: [36m[Function][39m,
+     exec: [36m[Function: deprecated][39m,
+     print: [36m[Function: deprecated][39m,
+     puts: [36m[Function: deprecated][39m,
+     debug: [36m[Function: deprecated][39m,
+     error: [36m[Function: deprecated][39m,
+     pump: [36m[Function: deprecated][39m,
+     _errnoException: [36m[Function][39m,
+     _exceptionWithHostPort: [36m[Function][39m },
+  myTimeout: [36m[Function][39m,
+  myInterval: [36m[Function][39m,
+  module: { exports: { [Function] func: [36m[Function][39m } },
+  console: 
+   { log: [36m[Function][39m,
+     info: [36m[Function: bound ][39m,
+     warn: [36m[Function: bound ][39m,
+     error: [36m[Function: bound ][39m,
+     dir: [36m[Function: bound ][39m,
+     time: [36m[Function: bound ][39m,
+     timeEnd: [36m[Function: bound ][39m,
+     trace: [36m[Function: bound trace][39m,
+     assert: [36m[Function: bound ][39m,
+     Console: [36m[Function: Console][39m },
+  require: [36m[Function: newRequire][39m,
+  global: [36m[Circular][39m }
+./application.js 19:19:25 Print use setInterval.
+./application.js 19:22:22 From application global context
+./application.js 19:22:22 { a: [33m5[39m, b: [33m6[39m, self: [36m[Circular][39m }
+./application.js 19:22:22 From application exported function
+./application.js 19:22:22 { obj: { a: [33m5[39m, b: [33m6[39m, self: [36m[Circular][39m },
+  util: 
+   { format: [36m[Function][39m,
+     deprecate: [36m[Function][39m,
+     debuglog: [36m[Function][39m,
+     inspect: { [Function: inspect] colors: [36m[Object][39m, styles: [36m[Object][39m },
+     isArray: [36m[Function: isArray][39m,
+     isBoolean: [36m[Function: isBoolean][39m,
+     isNull: [36m[Function: isNull][39m,
+     isNullOrUndefined: [36m[Function: isNullOrUndefined][39m,
+     isNumber: [36m[Function: isNumber][39m,
+     isString: [36m[Function: isString][39m,
+     isSymbol: [36m[Function: isSymbol][39m,
+     isUndefined: [36m[Function: isUndefined][39m,
+     isRegExp: [36m[Function: isRegExp][39m,
+     isObject: [36m[Function: isObject][39m,
+     isDate: [36m[Function: isDate][39m,
+     isError: [36m[Function: isError][39m,
+     isFunction: [36m[Function: isFunction][39m,
+     isPrimitive: [36m[Function: isPrimitive][39m,
+     isBuffer: [36m[Function: isBuffer][39m,
+     log: [36m[Function][39m,
+     inherits: [36m[Function][39m,
+     _extend: [36m[Function][39m,
+     exec: [36m[Function: deprecated][39m,
+     print: [36m[Function: deprecated][39m,
+     puts: [36m[Function: deprecated][39m,
+     debug: [36m[Function: deprecated][39m,
+     error: [36m[Function: deprecated][39m,
+     pump: [36m[Function: deprecated][39m,
+     _errnoException: [36m[Function][39m,
+     _exceptionWithHostPort: [36m[Function][39m },
+  myTimeout: [36m[Function][39m,
+  myInterval: [36m[Function][39m,
+  module: { exports: { [Function] func: [36m[Function][39m } },
+  console: 
+   { log: [36m[Function][39m,
+     info: [36m[Function: bound ][39m,
+     warn: [36m[Function: bound ][39m,
+     error: [36m[Function: bound ][39m,
+     dir: [36m[Function: bound ][39m,
+     time: [36m[Function: bound ][39m,
+     timeEnd: [36m[Function: bound ][39m,
+     trace: [36m[Function: bound trace][39m,
+     assert: [36m[Function: bound ][39m,
+     Console: [36m[Function: Console][39m },
+  require: [36m[Function: newRequire][39m,
+  global: [36m[Circular][39m }
+./application.js 19:22:23 Print use setInterval.
+./application.js 19:22:24 Print use setInterval.
+./application.js 19:22:25 Print use setInterval.
+./application.js 19:22:25 Print use setTimeout.
+./application.js 19:22:26 Print use setInterval.
+./application.js 19:22:27 Print use setInterval.
+./application.js 19:22:28 Print use setInterval.
