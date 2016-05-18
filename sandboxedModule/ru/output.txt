@@ -26,3 +26,45 @@
 ./application.js 18:33:08 Print use setInterval.
 ./application.js 18:33:09 Print use setInterval.
 ./application.js 18:33:10 Print use setTimeout.
+./application.js 18:41:04 From application global context
+./application.js 18:41:04 { a: 5, b: 6, self: [Circular] }
+./application.js 18:41:05 Print use setInterval.
+./application.js 18:41:06 Print use setInterval.
+./application.js 18:41:07 Print use setInterval.
+./application.js 18:41:07 Print use setTimeout.
+./application.js 18:57:36 From application global context
+./application.js 18:57:36 { a: 5, b: 6, self: [Circular] }
+./application.js 18:57:37 Print use setInterval.
+./application.js 18:57:38 Print use setInterval.
+./application.js 18:57:39 Print use setInterval.
+./application.js 19:03:11 From application global context
+./application.js 19:03:11 { a: 5, b: 6, self: [Circular] }
+./application.js 19:03:12 Print use setInterval.
+./application.js 19:03:13 Print use setInterval.
+./application.js 19:03:14 Print use setInterval.
+./application.js 19:03:14 Print use setTimeout.
+./application.js 19:03:15 Print use setInterval.
+./application.js 19:10:56 From application global context
+./application.js 19:10:56 { a: 5, b: 6, self: [Circular] }
+./application.js 19:10:57 Print use setInterval.
+./application.js 19:10:58 Print use setInterval.
+./application.js 19:10:59 Print use setInterval.
+./application.js 19:10:59 Print use setTimeout.
+./application.js 19:11:00 Print use setInterval.
+./application.js 19:11:01 Print use setInterval.
+./application.js 19:11:20 From application global context
+./application.js 19:11:20 { a: 5, b: 6, self: [Circular] }
+./application.js 19:11:21 Print use setInterval.
+./application.js 19:11:22 Print use setInterval.
+./application.js 19:11:30 From application global context
+./application.js 19:11:30 { a: 5, b: 6, self: [Circular] }
+./application.js 19:11:31 Print use setInterval.
+./application.js 19:11:32 Print use setInterval.
+./application.js 19:11:33 Print use setInterval.
+./application.js 19:14:05 From application global context
+./application.js 19:14:05 { a: 5, b: 6, self: [Circular] }
+./application.js 19:14:06 Print use setInterval.
+./application.js 19:14:07 Print use setInterval.
+./application.js 19:14:08 Print use setInterval.
+./application.js 19:14:08 Print use setTimeout.
+./application.js 19:14:09 Print use setInterval.

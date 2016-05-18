@@ -30,6 +30,23 @@ fs.readFile(fileName, function(err, src) {
   var script = vm.createScript(src, fileName);
   script.runInNewContext(sandbox);
   
+  for (var tmp in sandbox.module.exports) {
+  	console.log(tmp + " -> " + typeof sandbox.module.exports[tmp]);
+  }
+
+  var functionString = sandbox.module.exports.func.toString();
+  var argF = functionString.substring(functionString.indexOf('(') + 1, 
+  									functionString.indexOf(')'));
+  var pos = 0;
+  var countArg = 0;
+  while(true){
+  	var found = argF.indexOf(' ');
+  	if(found == -1) break;
+  	else countArg++;
+  	pos = found + 1;
+  }
+  console.log(functionString);
+  console.log(countArg + 1);
   // Забираем ссылку из sandbox.module.exports, можем ее исполнить,
   // сохранить в кеш, вывести на экран исходный код приложения и т.д.
 });

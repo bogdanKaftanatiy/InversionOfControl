@@ -26,3 +26,7 @@ module.exports = function() {
 
     console.log('From application exported function');
 };
+
+module.exports.func = function(argument) {
+  console.log('function with argument: ' + argument);
+};
